@@ -49,6 +49,15 @@ return require('packer').startup(function(use)
       { 'rafamadriz/friendly-snippets' },
     }
   }
+-- Prettier
+use('jose-elias-alvarez/null-ls.nvim')
+use('MunifTanjim/prettier.nvim')
+
+  -- Neovim Signature Helper
+  use "folke/neodev.nvim"
+
+
+  use "j-hui/fidget.nvim"
 
   use("folke/zen-mode.nvim")
   use("github/copilot.vim")
