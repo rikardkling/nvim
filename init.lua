@@ -52,6 +52,10 @@ require("prettier").setup({
   },
 })
 
+
+-- set termguicolors to enable highlight groups
+vim.opt.termguicolors = true
+
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
